@@ -17,3 +17,8 @@ This was my second program in Python, after "Hello, world!". mario.py asks the u
 I decided to try building a function with the number input, and decided that stylistically it looked better to build main() as well. The only problem I ran into with this was that on my screen, "__name__" looked like it had three underscores instead of two, so I got an undefined error when I first tried to run it!
 
 For the spaces in between the two pyramids, I debated between having a single print("  ") that contained two spaces or using a for loop. I ended up deciding on the for loop because I was printing everything else a character at a time and it felt consistent to continue with that. It also means that it is easier to tell how many spaces are being printed between the pyramids, as well as to change the spacing later on.
+
+Shortly after completing the originally-uploaded version of mario.py, I realised that I did not need to use so many for loops in the program. Writing
+
+    print("#" * (i + 1), end="")
+accomplished the same thing. I updated the program to remove all but the initial loop.

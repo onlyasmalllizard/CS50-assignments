@@ -10,9 +10,9 @@ mario.py
 ----
 This was my second program in Python, after "Hello, world!". mario.py asks the user for a number between 1 and 8 and then prints two pyramids built of hashes based on the number given. If the user does not give a valid number, the program will keep asking for one. For example, if the user enters 3, they should receive the following:
 
-  #  #
- ##  ##
-###  ###
+      #  #
+     ##  ##
+    ###  ###
 
 I decided to try building a function with the number input, and decided that stylistically it looked better to build main() as well. The only problem I ran into with this was that on my screen, "__name__" looked like it had three underscores instead of two, so I got an undefined error when I first tried to run it!
 

@@ -9,17 +9,13 @@ def main():
     # prints vertically for the number of rows specified
     for i in range(size):
         # prints any necessary spacing before the first hashes
-        for j in range(size - (i + 1)):
-            print(" ", end="")
+        print(" " * (size - (i + 1)), end="")
         # prints the first pyramid's hashes horizontally
-        for k in range(i + 1):
-            print("#", end="")
+        print("#" * (i + 1), end="")
         # prints the space between the pyramids
-        for l in range(2):
-            print(" ", end="")
+        print(" " * 2, end="")
         # prints the second pyramid's hashes horizontally
-        for m in range(i + 1):
-            print("#", end="")
+        print("#" * (i + 1), end="")
         # moves onto the next line
         print()
 
